@@ -1,5 +1,5 @@
 ---
-title: "Optimal Timing of Complete Revascularisation for patients with STEMI"
+title: "Optimal Timing of Complete Revascularisation for STEMI patients"
 subtitle: "Immediate vs. Staged Complete Revascularisation"
 format: 
   revealjs:
@@ -109,9 +109,9 @@ editor: visual
 
 ## Study design
 
-::: panel-tabset \### Figure S1
-
-<img src="OPTION_STEMI_Figure_1.png"/> :::
+::: panel-tabset
+![](images/OPTION_STEMI_Figure_1.png)
+:::
 
 ## Results
 
@@ -141,18 +141,9 @@ editor: visual
 
 ## Flow diagram, Baseline
 
-::: panel-tabset \### Figure S2
-
-<img src=""/>
-
-\### Table 2
-
-<img src="OPTION_STEMI_Table_2.png"/> 
-
-\### Figure 2
-
-<img src="OPTION_STEMI_Figure_2.png"/>:::
-
+::: panel-tabset
+![](images/OPTION_STEMI_Table_2.png) ![](images/OPTION_STEMI_Figure_2.png)
+:::
 
 ## End points
 
@@ -160,14 +151,6 @@ editor: visual
 -   특히 **급성 심부전(Killip II–III)** 환자에서 **Immediate 전략의 잠재적 위험험** 시사
 -   심근 취약기, 조영제 부하/시술 복잡도 ↑ → 급성 합병증(쇼크, 조기 혈전증) 가능성
 -   반면 **혈역학적으로 안정(Killip I)** 저위험 환자에서는 **전략 간 유사**한 결과
-
-::: panel-tabset \### Table 3
-
-<img src="FLAVOUR Table 3.jpeg"/>
-
-\### Figure 1
-
-<img src="FLAVOUR Figure 1.jpeg"/> :::
 
 # Conclusion
 
@@ -179,19 +162,12 @@ editor: visual
     -   **저위험·혈역학적 안정 STEMI** 환자에서는 Immediate 전략 고려 가능
     -   **급성 심부전/고위험군**에서는 **입원 중 Staged 전략 권장**
 
-## Discussion_1
-
 ## Limits
 
--   시술자는 intervention의 종류를 안 채로 시술을 시행했다 **(open-label)**.<br><br>
--   임상시험이 **동양아시아 인종**에 대해서만 이뤄짐 -\> 일반화 제한한
--   Open Label, **교차 및 프로토콜 편차** 비교적 높음
+-   시술자는 intervention의 종류를 안 채로 시술을 시행 **(open-label)**
+-   임상시험이 **동양아시아 인종**에 대해서만 이뤄짐 -\> 일반화 제한
+-   **교차 및 프로토콜 편차** 비교적 높음
+-   비열등성 한계(HR 1.42)가 다소 큼
 -   **여성 21%**로 성별 대표성 제한
--   **FFR 사용**(급성기 신뢰성 한계) 및 **다중 비교**: 2차 지표 해석 시 주의
--   비열등성 한계(HR 1.42) 크기, **CIs가 1.0과 한계를 모두 교차** → 결론 **불확실성** 존재
-
-## Limits_2
-
--   두 군의 **PCI 시행 기준이 서로 달랐고, plaque의 성상을 고려하지 않았다.**<br><br>
--   **FFR과 IVUS외에도 생리적 기능평가, 혈관내 영상검사가 존재**하므로 다양한 검사법의 추가 비교가 필요하다. <br><br>
--   본 연구는 **FFR과 IVUS를 모두 사용한 군**을 포함하지 않았으므로, 후속 연구가 필요하다.
+-   Immediate와 Staged Group 모두 **FFR 사용**(신뢰성 한계)
+-   예상보다 높은 사건발생률 -\> **넓은 CI로 인한 검정력 하락**
