@@ -1,0 +1,197 @@
+---
+title: "Optimal Timing of Complete Revascularisation for patients with STEMI"
+subtitle: "Immediate vs. Staged Complete Revascularisation"
+format: 
+  revealjs:
+    slide-number: true
+    transition: slide
+    theme: dark
+    footer: OPTION-STEMI
+    reference-location: document
+    scrollable: true
+editor: visual
+---
+
+## Glossary_1
+
+-   **Coronary artery disease(CAD)** : 관상동맥질환; 관상동맥이 막히거나 수축하여 심장으로의 혈액 공급이 어려운 상태
+-   **STEMI**: ST분절 상승 심근경색
+
+## Glossary_2
+
+-   **Percutaneous Coronary Intervention(PCI)** : 관상동맥 중재술; 피부를 통해 도관을 삽입하여 막힌 관상동맥을 열어주는 시술. 일회성으로 풍선을 부풀려 확장하거나, 영구적으로 스텐트를 삽입
+
+-   **Revascularization** : 재혈관화; 혈류를 복원해주는 치료. 관상동맥의 경우, 시술과(PCI = Ballooning/Stenting) 수술(CABG) 모두 가능
+
+-   **Complete Revascularisation**: 완전 재관류; 범인혈관(culprit) 외 **비범인(non‑culprit) 병변**까지 PCI로 치료
+
+## Glossary_3
+
+-   **Coronary Angiography(CAG)** : 관상동맥 조영술; 관상동맥에 조영제를 넣어 구조 및 형태를 관찰하는 검사
+-   **Fractional Flow Reserve(FFR)** : 분획 혈류 예비력; 혈관확장제 투여 후 관상동맥 병변 전후 압력의 비율로 혈류 감소량을 추정하는 생리적 기능 검사
+-   **Killip class**: 심부전 중증도 지표 (I: 없음, II–III: 급성 심부전)
+
+## Background_1
+
+-   STEMI의 다혈관질환에서 **Complete Revascularisation은 표준 전략**으로 자리잡았으나, **시술 타이밍(Immediate vs. Staged)**은 논란.
+-   기존 대규모 무작위시험(BIOVASC, MULTISTARS AMI)은 **Immediate 전략의 비열등성**을 시사했지만,
+-   다수 환자가 **퇴원 후 Staged Revascularisation for Non-culprit lesions** 시행
+-   상대적으로 **저위험군**이 많았음.
+
+## Background_2
+
+-   **OPTION–STEMI**는 **입원기간 내**에 단계적 PCI를 완료하는 설정에서 **즉시 전략의 비열등성**을 검정.
+
+# Method
+
+## Study design
+
+-   Investigator-initiated, Open-label, Non-Inferiority, Randomised controlled trial
+-   한국의 14개 병원에서 시행
+
+## Patients
+
+-   **선정기준**: **STEMI 와 다혈관 관상동맥질환** 진단, **Successful PCI for a Culprit artery** 받은 19세 이상 환자들
+-   **Successful PCI for a Culprit artery**: Residual Stenosis 20% 이하, Grade 2 or 3 flow (Thrombolysis in Myocardial Infarction grading system)
+-   **Multivessel Coronary Artery Disease**: 직경 2.5mm 이상, 육안상 50% 이상 협착착을 가진 하나 이상의 Non-culprit 병변
+-   **제외기준**: 초치료 중 또는 Culprit 치료 이후 심인성 쇼크크, 육안상 50% 이상 협착을 보이는 보호되지 않은 좌주간지 관상동맥 질환, Non-Culprit 혈관의 만성 완전 폐색 <br><br>
+
+## Intervention_1
+
+-   Immediate Group, Staged Group **1:1 랜덤 배정**
+-   **FFR**: 50–69% 협착에서 평가(≥70%는 영상평가로 PCI 결정)
+
+## Intervention_2
+
+::: panel-tabset
+### Immediate Group
+
+-   **초치료 시** Culprit과 Non-Culprit 병변 모두 PCI
+
+### Staged Group
+
+-   **입원 중 다른 날** Non-Culprit 병변 PCI (**중앙 3일, IQR 2–4일**)
+:::
+
+## Primary End point
+
+-   1년 복합 사건 — **Death**, **Non-fatal Myocardial Infarction**(자연/시술 관련), **Unplanned Revascularisation**
+
+## Secondary End point
+
+-   Primary end point 와 동일 구성요소 (시기: 랜덤 배정 이후 1, 6개월), 여러가지 이유 등으로 인한 사망 등
+
+## Follow up
+
+-   랜덤 배정 후 1, 6, 12개월
+
+## Sample size
+
+-   사건률 가정 10.5%
+-   Noninferiority Margin HR 1.42
+-   검정력 80%
+-   단측검정 1종 오류 확률 2.5%
+-   **최종 994명**
+
+## Statistical analysis_1
+
+-   **Kaplan–Meier**로 사건 발생률 추정
+-   **Cox proportional-hazards regression**로 치료 효과 평가 (HR, 95% CI)
+-   Schoenfeld 잔차로 비례위험 가정 검증
+-   HR의 단측 97.5% CI 상한 \< 1.42 → **비열등성 인정**
+-   결측자료 보정 없음
+
+## Statistical analysis_2
+
+-   **Intention-to-treat (ITT)** (per-protocol 분석도 시행) <br><br>
+-   Multiple comparison 보정, Multiplicity 교정은 계획하지 않음. <br><br>
+-   Secondary Endpoint p-value 기재 안됨.
+
+## Study design
+
+::: panel-tabset \### Figure S1
+
+<img src="OPTION_STEMI_Figure_1.png"/> :::
+
+## Results
+
+### Baseline characteristic
+
+-   **모집 대상**: 994명 (2019/12 \~ 2024/01) <br><br>
+-   **분석 대상**: Immediate Group 498명, Staged Group 496명 <br><br>
+-   나이 중간값 66세
+-   남성 79%, 여성 21%
+-   교차: Immediate 9%, Staged 3%
+-   Non-Culprit 병변 PCI 시행: Immediate 63%, Staged 55%
+
+### Procedural characteristic
+
+-   Immediate 65명(13%) vs Staged 53명(11%) → **HR 1.24 (95% CI 0.86–1.79)**, **비열등성 미충족**
+-   개별 구성요소(전체 사망, 비치명적 MI, 임의 재관류) **유의차 없음**
+
+### Subgroup
+
+-   **Killip class 상호작용** 유의 (**p=0.04**)
+-   **Killip I** (심부전 징후 없음): 두 전략 간 큰 차이 없음
+-   **Killip II–III** (급성 심부전 동반):
+    -   1년 복합사건: **23% (Immediate) vs 13% (Staged)**
+    -   **Immediate 전략이 잠재적으로 위험험**
+    -   **심인성 쇼크 27건 중 23건**, **조기 스텐트 혈전증 14건 중 9건**이 모두 Killip II–III 환자에서 발생
+    -   대부분 **Non-Culprit 병변 PCI 중/후** 발생
+
+## Flow diagram, Baseline
+
+::: panel-tabset \### Figure S2
+
+<img src=""/>
+
+\### Table 2
+
+<img src="OPTION_STEMI_Table_2.png"/> 
+
+\### Figure 2
+
+<img src="OPTION_STEMI_Figure_2.png"/>:::
+
+
+## End points
+
+-   Staged PCI와 비교 시, **Immediate 완전 재관류의 비열등성 입증에 실패**.
+-   특히 **급성 심부전(Killip II–III)** 환자에서 **Immediate 전략의 잠재적 위험험** 시사
+-   심근 취약기, 조영제 부하/시술 복잡도 ↑ → 급성 합병증(쇼크, 조기 혈전증) 가능성
+-   반면 **혈역학적으로 안정(Killip I)** 저위험 환자에서는 **전략 간 유사**한 결과
+
+::: panel-tabset \### Table 3
+
+<img src="FLAVOUR Table 3.jpeg"/>
+
+\### Figure 1
+
+<img src="FLAVOUR Figure 1.jpeg"/> :::
+
+# Conclusion
+
+-   **Immediate 완전 재관류**는 **입원 중 Staged 완전 재관류**에 비해\
+    1년 복합사건(사망, 비치명적 MI, 임의 재관류)에서 **비열등성 입증 실패**
+-   **Killip II 이상(급성 심부전 동반)** 환자에서 **Immediate 전략의 위험 증가**
+-   급성 심부전/심인성 쇼크 환자 → Staged 전략이 더 안전
+-   따라서,
+    -   **저위험·혈역학적 안정 STEMI** 환자에서는 Immediate 전략 고려 가능
+    -   **급성 심부전/고위험군**에서는 **입원 중 Staged 전략 권장**
+
+## Discussion_1
+
+## Limits
+
+-   시술자는 intervention의 종류를 안 채로 시술을 시행했다 **(open-label)**.<br><br>
+-   임상시험이 **동양아시아 인종**에 대해서만 이뤄짐 -\> 일반화 제한한
+-   Open Label, **교차 및 프로토콜 편차** 비교적 높음
+-   **여성 21%**로 성별 대표성 제한
+-   **FFR 사용**(급성기 신뢰성 한계) 및 **다중 비교**: 2차 지표 해석 시 주의
+-   비열등성 한계(HR 1.42) 크기, **CIs가 1.0과 한계를 모두 교차** → 결론 **불확실성** 존재
+
+## Limits_2
+
+-   두 군의 **PCI 시행 기준이 서로 달랐고, plaque의 성상을 고려하지 않았다.**<br><br>
+-   **FFR과 IVUS외에도 생리적 기능평가, 혈관내 영상검사가 존재**하므로 다양한 검사법의 추가 비교가 필요하다. <br><br>
+-   본 연구는 **FFR과 IVUS를 모두 사용한 군**을 포함하지 않았으므로, 후속 연구가 필요하다.
