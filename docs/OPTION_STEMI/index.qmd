@@ -109,12 +109,6 @@ editor: visual
 -   Multiple comparison 보정, Multiplicity 교정은 계획하지 않음.
 -   Secondary Endpoint p-value 기재 안됨.
 
-## Study design
-
-::: panel-tabset
-![](images/OPTION_STEMI_Figure_1.png)
-:::
-
 # Results
 
 ## Baseline characteristic
@@ -141,11 +135,6 @@ editor: visual
     -   **심인성 쇼크 27건 중 23건**, **조기 스텐트 혈전증 14건 중 9건**이 모두 Killip II–III 환자에서 발생
     -   대부분 **Non-Culprit 병변 PCI 중/후** 발생
 
-## Flow diagram, Baseline
-
-::: panel-tabset
-![](images/OPTION_STEMI_Figure_2.png)
-:::
 
 ## End points
 
