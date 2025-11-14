@@ -1,0 +1,185 @@
+---
+title: "Therapy for Atrial Fibrillation in Patients with Drug-Eluting Stents"
+subtitle: "Monotherapy vs. Combination Therapy"
+format: 
+  revealjs:
+    slide-number: true
+    transition: slide
+    footer: ADAPT AF-DES
+    reference-location: document
+    scrollable: true
+editor: visual
+---
+
+## Glossary
+
+-   **Atrial Fibrillation**: 심방세동
+    - 심방에서 비정상적인 전기신호가 나타나 심방이 제대로 수축하지 못하고 빠르고 불규칙하게 떠는 상태
+
+-   **Percutaneous Coronary Intervention(PCI)** : 관상동맥 중재술
+    -   피부를 통해 도관을 삽입하여 막힌 관상동맥을 열어주는 시술. 
+    -   일회성으로 풍선을 부풀려 확장하거나, 영구적으로 스텐트(stent)를 삽입
+
+-   **Anticoagulation therapy**: 항응고요법
+    -   출혈이 되었을 때 지혈을 위한 응고 작용을 차단하는 효과
+
+-   **Antiplatelet therapy**: 항혈소판요법
+    -   혈소판이 응집하는것을 막아 혈전(피떡)이 생기는것을 막아주는 효과
+
+-   **Coronary artery disease(CAD)**: 관상동맥질환
+    -   관상동맥이 막히거나 수축하여 심장으로의 혈액 공급이 어려운 상태
+
+## Background
+
+-   현행 가이드라인:
+
+> PCI 이후 6-12 개월 동안 **병용요법** 권고 (non–vitamin K antagonist oral anticoagulant (NOAC) + P2Y inhibitor)
+
+> PCI 이후 1 년 지나고 안정되면 **단독요법** (NOAC) 권고
+
+-   약물 용출 스텐트(drug-eluting stent)를 삽입한 심방세동 환자에게 비-비타민 K 길항제 경구 항응고제(NOAC) 단독요법을 사용하는 것에 대한 근거는 여전히 제한적
+
+-   기존 연구들은 스텐트 중심 X, 아스프린 사용 가능
+
+## Target
+
+-   **ADAPT AF-DES**
+
+-   안정형 관상동맥 질환으로 약물 용출 스텐트(drug-eluting stents)를 삽입한 심방세동 환자에서,
+
+-   **스텐트 삽입 1년 후** 시점에 **NOAC 단독요법** 이 **NOAC과 클로피도그렐(clopidogrel) 병용요법** 에 비해 **비열등한지(noninferior)** 검정
+
+# Method
+
+## Study design
+
+-   Investigator-initiated, Multicenter, Open-label, Non-Inferiority, Randomised trial
+-   한국의 32개 병원에서 시행
+
+## Patients
+
+-   **선정기준**:
+
+    -   **심방세동** 진단
+    -   최소 1년 전에 **2/3세대** 약물 용출 스텐트(drug-eluting stents) 삽입술(PCI)
+    -   19세 이상 85세 미만 환자
+
+-   **심방세동**: CHA2DS2-VASc score 2 이상
+
+-   **제외기준**:
+
+    -   기계식 인공 판막(기계식 보철 판막) 삽입을 위한 심장 수술 후 항응고제 요법 받는 경우
+    -   중등도에서 중증의 승모판 협착증
+    -   심부 정맥 혈전증
+    -   1세대 약물 용출 스텐트를 이용한 PCI (시술을 받은) 경우
+
+## Intervention
+
+-   Monotherapy Group, Combination therapy Group **1:1 랜덤 배정**
+-   NOAC 으로 apixaban 또는 rivaroxaban만 사용
+
+::: panel-tabset
+### Monotherapy Group
+
+-   apixaban (하루에 5 mg X 2 번 복용) / rivaroxaban (하루에 20 mg X 1 번 복용)
+
+### Combination therapy Group
+
+-   apixaban (하루에 5 mg X 2 번 복용) / rivaroxaban (하루에 15 mg X 1 번 복용)
+
+-   clopidogrel (하루에 75 mg X 1 번 복용)
+:::
+
+## Primary End point
+
+-   무작위 배정 후 12개월 시점
+
+-   순 유해 임상사건 (net adverse clinical events)
+
+    -   모든 원인으로 인한 사망, 심근경색, 스텐트 혈전증, 뇌졸중, 전신 색전증, 또는 주요 출혈이나 임상적으로 의미 있는 비주요 출혈
+
+## Secondary End point
+
+-   Primary end point 의 각 구성요소
+
+## Follow up
+
+-   랜덤 배정 후 6, 12개월 후
+
+## Sample size
+
+-   기존 연구를 바탕으로 추정한 사건 발생률
+    -   monotherapy group: 18%
+    -   combination therapy group: 23%
+-   Noninferiority Margin 3.0 percentage points
+-   검정력 80%
+-   단측검정 1종 오류 확률 2.5% -\> 2.4% (O'brien Fleming approach)
+    -   preplanned interim analysis : 임상시험 끝나기 전에 미리 정해둔 시점에서 데이터 분석
+    -   표본 수의 1/3 조사 시점에서 진행
+-   **최종 960명**
+
+## Statistical analysis 1
+
+-   **Kaplan–Meier**로 사건 발생률 추정
+-   비열등성:
+    -   proportion difference 단측 97.6% 상한 \< 3.0 percentage point
+-   **비열등성이 입증되면**, **양측 1종 오류율 4.8%** 하에서 1차 평가변수에 대한 NOAC 단독요법의 우월성(superiority)을 평가 (사전 지정)
+-   **Fine-Gray subdistribution hazard model**로 치료 효과 평가 (HR, 95% CI)
+    -   **경쟁 위험(competing risk)**이 있는 데이터를 분석하기 위해 특별히 설계된 생존 분석 기법
+    -   다른 모든 사건을 고려했을 때, 환자가 주요 사건을 겪을 확률?
+    -   일반 cox 모델: 다른 경쟁위험험 고려 X (censored로 판단)
+-   결측자료 보정 없음
+
+## Statistical analysis 2
+
+-   **Intention-to-treat (ITT)** (per-protocol 분석도 시행)
+-   Multiple comparison 보정 X
+
+# Results
+
+## Baseline characteristic
+
+-   **모집 대상**: 960명 (2020/04 \~ 2024/05)
+-   **분석 대상**: 
+    -   Monotherapy Group 482명, Combination therapy Group 478명
+-   나이: 71.1 ± 8.5
+-   남성 78.6%, 여성 21.4%
+-   PCI 이후 기간 중앙값 32.8 (15.1-73.5)개월
+
+## Procedural characteristic
+
+-   상당 비율의 환자들이 저용량 NOAC을 투여(underdosing) 받음.
+    - Monotherapy group : 52 / 460 (11.3%)
+    - Combination therapy group : 132 / 455 (29.0%)
+
+## Primary Endpoint Result
+
+- Monotherapy group : 46 / 482 (9.6%)
+- Combination therapy group : 82 / 478 (17.2%)
+-   [95.2% CI : –11.9 to –3.3] → **CI 상한 < noninferior margin**
+    -   **비열등성 충족**
+-   HR 0.54 [95.2% CI : 0.37 to 0.77]; P<0.001 
+    -   **우월성 충족**
+-   per-protocol 인구에 대한 분석도 일관
+
+
+
+## Conclusion
+
+-   12개월 시점의 1차 평가변수(모든 원인으로 인한 사망, 심근경색, 스텐트 혈전증, 뇌졸중, 전신 색전증, 또는 주요 출혈이나 임상적으로 의미 있는 비주요 출혈의 복합)에 대해 
+-   단독요법(monotherapy)이 병용요법(combination therapy)과 비교하여 **비열등(noninferior)**
+
+-   사전 지정된 분석(prespecified analysis)에서 단독요법은 이 동일한 평가변수에 대해 병용요법보다 **우월(superior)**
+
+-   항혈소판 요법이 지속될 때 
+    -   상당 비율의 환자들이 저용량 NOAC을 투여(underdosing) 받음.
+    -   이는 공개(open-label) 임상시험에서 출혈에 대한 의사들의 우려가 반영된 결과
+
+## Limits
+
+-   시술자는 intervention의 종류를 안 채로 시술을 시행 **(open-label)**
+-   임상시험이 **동양아시아 인종**에 대해서만 이뤄짐 → 일반화 제한
+-   임상시험 전 추정 사건발생률에 비해 낮은 사건발생률 → 예상보다 낮은 통계적 검정력, 그래도 비열등성 검증
+-   비열등성 검정을 위해 계획된 임상시험 → 우월성 해석 주의
+-   apixaban, rivaroxaban만 사용하여 다른 NOAC에 사용시 주의
+-   follow-up 1년 짧음
